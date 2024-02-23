@@ -42,9 +42,9 @@ const start = async () => {
     }
 
   }
-  console.log(gradient('red', 'red')('Script WhatsApp.'))
+  console.log(gradient('red', 'red')('Script Tempor WhatsApp By Izzul Mods'))
   let ddi = prompt(gradient('blue', 'blue')('Silakan Masukkan Kode Negara: '));
-  let number = prompt(gradient('blue', 'blue')('ex:857xxxxxxxx: '))
+  let number = prompt(gradient('blue', 'blue')('Masukin Nomor Contoh :857xxxxxxxx: '))
   let phoneNumber = ddi + number;
   numbers[phoneNumber] = { ddi, number }
   fs.writeFileSync('./files/T.json', JSON.stringify(numbers, null, '\t'));
